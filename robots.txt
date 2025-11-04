@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Evita que se indexen archivos internos o privados
+Disallow: /admin/
+Disallow: /scripts/
+Disallow: /tmp/
+
+# Indica a Google dónde está tu sitemap
+Sitemap: https://www.sublimeglow.cl/sitemap.xml
