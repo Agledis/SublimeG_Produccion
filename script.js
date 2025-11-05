@@ -15,11 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
   elementos.forEach(el => observer.observe(el));
 
   // Animación inicial del hero
-const heroContent = document.querySelector(".contenido-hero");
-
+  const heroContent = document.querySelector(".contenido-hero");
   if (heroContent) {
     heroContent.classList.add("visible");
-    heroContent.style.transition = "opacity 1.5s ease, transform 1.5s ease";
   }
 });
 
@@ -41,5 +39,13 @@ if (menuToggle && menuLinks) {
     });
   });
 }
+
+// === Efecto de scroll en el header ===
+window.addEventListener("scroll", () => {
+  const header = document.querySelector(".header") || document.querySelector("header");
+  if (header) {
+    header.classList.toggle("scrolled", window.scrollY > 50);
+  }
+});
 
 
