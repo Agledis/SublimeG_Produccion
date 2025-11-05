@@ -334,6 +334,7 @@ body {
   margin-bottom: 1rem;
   color: var(--color-principal);
   font-family: var(--fuenteHeading);
+  font-size: 1.5rem;
 }
 
 .footer-contenedor p,
@@ -342,7 +343,7 @@ body {
   display: block;
   color: #fff;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
 }
 
