@@ -1,0 +1,24 @@
+{
+  "name": "sublimeg_produccion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m \"Actualización Sublime Glow\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agledis/SublimeG_Produccion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Agledis/SublimeG_Produccion/issues"
+  },
+  "homepage": "https://github.com/Agledis/SublimeG_Produccion#readme"
+}
+
+
+
