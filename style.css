@@ -96,8 +96,13 @@ body {
   text-align: center;
   overflow: hidden;
   color: #fff;
-  background: url('./img/hero.webp') center/cover no-repeat;
+  background: #111; /* o un gradiente similar a la imagen */
+  background-image: url('./img/hero1.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 /* Video de fondo */
 .hero-video {
